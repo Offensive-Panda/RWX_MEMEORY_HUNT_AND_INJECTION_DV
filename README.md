@@ -22,3 +22,9 @@ This technique will work with ntdll based shellcode which is not dependent on an
 * Extract the .text section and use that in given project file.
 * To extract the shellcode there are other methods also explained in the repository.
 
+
+
+## Only for educational purposes.
+### DEMO 
+https://www.linkedin.com/posts/usman-sikander13_%3F%3F%3F-%3F%3F%3F%3F%3F%3F-activity-7196426924351488001-RXOk?utm_source=share&utm_medium=member_desktop
+

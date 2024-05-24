@@ -12,6 +12,7 @@ Just compile the program and run the (EXE) without any paremeter.
 * Write shellcode into found region of OneDrive.exe
 * Fork OneDrive.exe into a new process.
 * Set the forked process's start address to the cloned shellcode.
+* Terminate the cloned process after execution.
 
 ## Shellcode
 This technique will work with ntdll based shellcode which is not dependent on any section. I used https://github.com/rainerzufalldererste/windows_x64_shellcode_template to generate my shellcode.

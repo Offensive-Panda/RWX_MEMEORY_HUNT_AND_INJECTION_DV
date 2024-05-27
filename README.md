@@ -1,5 +1,5 @@
 # RWX_MEMEORY_HUNT_AND_INJECTION_DV
-Abusing Windows fork API and OneDrive.exe process to inject the malicious shellcode without allocating new RWX memory region. This technique is finding RWX region in already running processes in this case OneDrive.exe and Write shellcode into that region and execute it without calling CreateRemoteThread, NtCreateRemoteThread or Direct calls. 
+Abusing Windows fork API and OneDrive.exe process to inject the malicious shellcode without allocating new RWX memory region. This technique is finding RWX region in already running processes in this case OneDrive.exe and Write shellcode into that region and execute it without calling VirtualProtect, VirtualAllocEx, VirtualAlloc. 
 
 ## Usage 
 Just compile the program and run the (EXE) without any paremeter.
